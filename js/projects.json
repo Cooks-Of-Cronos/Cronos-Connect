@@ -4,56 +4,162 @@
       "twitterUrl": "https://twitter.com/NEWAMERICANFT",
       "imageSrc": "img/dummies/featured/cronos.png",
       "description": "New America is rising and the cash currency holds no value. Cronos coin has skyrocket in value and is now $250,000 per share. Cronos has made tons of millionaires in such a small time and it seems not everyone is happy about it. 'Uncle Fam' wants to run the block chain and will stop at nothing to do so. Enforcers tiers 1 2 and 3 were created to protect the 'Cro Coin' by any means necessary until greed and a hunger for more power begin to grow.",
-      "discordUrl": "https://discord.com/invite/yNJbZJSmQ5"
+      "discordUrl": "https://discord.com/invite/yNJbZJSmQ5",
+      "category": "nft"
+
     },
     {
-      "name": "Project 2",
-      "twitterUrl": "https://twitter.com/project2",
+      "name": "Team Movember",
+      "twitterUrl": "https://twitter.com/teammustachios",
       "imageSrc": "img/dummies/featured/project2.png",
-      "description": "nft",
-      "discordUrl": "https://discord.com/invite/project2"
+      "description": "Team Mustachios consists of 3 teams, yellow, green and blue for a total of 1409 unique NFTs. Unlike traditional stacking, we have innovated to give you an unprecedented experience. We therefore redistribute the royalties in a playful way by selecting a team each week as well as 2 traits from the collection. If your team is selected during the current week, you win but if you own one or even better 2 traits, you could win big.",
+      "discordUrl": "https://discord.com/invite/6P7gZaMFSM",
+      "category": "nft"
     },
     {
-        "name": "Project 2",
-        "twitterUrl": "https://twitter.com/project2",
+        "name": "CroCow",
+        "twitterUrl": "https://twitter.com/crocownft",
         "imageSrc": "img/dummies/featured/project2.png",
-        "description": "Description of Project 2",
-        "discordUrl": "https://discord.com/invite/project2"
+        "description": "CroCow, a collection of 8000 different pixel characters created by our artist. Each NFT is based on 7 layers (over 130 traits) with different rarities. The main idea is to enable pixel fans passive income, while having fun.",
+        "discordUrl": "https://discord.com/invite/eTP8H6A7WF",
+        "category": "blank"
     },
     {
         "name": "Sovereign Sphynx Council",
         "twitterUrl": "https://twitter.com/SphynxLabs",
         "imageSrc": "img/dummies/featured/cronos.png",
         "description": "nft Sovereign Sphynx Council is a collection of 8,888 NFTs. Like a snowflake, each collectable is a one-of-a-kind hand-drawn original. We wanna become the coolest project you love! The sphynx were born organically in an NFT community with over a thousand NFT fans and artists. By purchasing a sphynx, you’re also getting access to our exclusive community and some exciting bonus benefits.",
-        "discordUrl": "https://discord.com/invite/8UmeNpp8sJ"
+        "discordUrl": "https://discord.com/invite/8UmeNpp8sJ",
+        "category": "blank"
       },
       {
         "name": "AutoFarm",
         "twitterUrl": "https://autofarm.network/",
         "imageSrc": "img/dummies/featured/cronos.png",
         "description": "nft The best cross‑chain Yield Aggregator across DeFi. Buy and deposit on Autofarm and start earning",
-        "discordUrl": "https://autofarm.network/"
+        "discordUrl": "https://autofarm.network/",
+        "category": "blank"
       },
       {
         "name": "Crosmonauts",
         "twitterUrl": "https://twitter.com/crosmonaut",
         "imageSrc": "img\\Projects\\Cromonauts.jpg",
         "description": "Crosmonaut NFT project, only on Cronos. Join our discord at http://discord.gg/y7ffH8Zuhg #CRO #CRONOS",
-        "discordUrl": "http://discord.gg/y7ffH8Zuhg"
+        "discordUrl": "http://discord.gg/y7ffH8Zuhg",
+        "category": "nft"
+
       },
       {
         "name": "CroPunks",
         "twitterUrl": "https://twitter.com/PunkCronos",
         "imageSrc": "img\\Projects\\cropunks2.png",
         "description": "Collection of 2,720 algorithmically generated #Cronospunk on the CronosChain.#CRO TG👉http://t.me/cronospunk Discord 👉http://discord.gg/DGZBBkqdms",
-        "discordUrl": "http://discord.gg/DGZBBkqdms"
+        "discordUrl": "http://discord.gg/DGZBBkqdms",
+        "category": "nft"
       },
       {
         "name": "SupBirds",
         "twitterUrl": "https://twitter.com/SupBirdsNFT",
         "imageSrc": "img\\Projects\\supbirds.jfif",
         "description": "",
-        "discordUrl": null
+        "discordUrl": null,
+        "category": "nft"
+      },
+      {
+        "name": "Rebel Punks",
+        "twitterUrl": "https://twitter.com/RebelPunks_",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "5000 Rebel PUNKS that double as a membership to an Exclusive #P2E community giving you access to private sale",
+        "discordUrl": "https://linktr.ee/metawarz",
+        "category": "nft"
+      },
+      {
+        "name": "Patron NFT",
+        "twitterUrl": "https://twitter.com/KAPVEYCRYPTO",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "",
+        "discordUrl": "https://discord.com/invite/h9RWaMFr",
+        "category": "nft"
+      },
+      {
+        "name": "Cazy Crossbreeds",
+        "twitterUrl": "https://twitter.com/CROssbreedsNFT",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "",
+        "discordUrl": "https://discord.com/invite/jxyytxSJAZ",
+        "category": "nft"
+      },
+      {
+        "name": "Selfie Guys ",
+        "twitterUrl": "https://twitter.com/Selfie_Guys_NFT",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "6666 NFT project launched on Cronos Chain!🤳 Mint is live on Ebisusbay! Staking to earn $Selfie token is live!🤑 Selfiebuddies 🐾 airdrop on 04th march 🪂",
+        "discordUrl": "https://discord.com/invite/C7uGgYnTvM",
+        "category": "nft"
+      },
+      {
+        "name": "Cro Llamas",
+        "twitterUrl": "https://twitter.com/LlamasCro",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "",
+        "discordUrl": "https://linktr.ee/crollamanft",
+        "category": "nft"
+      },
+      {
+        "name": "TrollCoin",
+        "twitterUrl": "https://twitter.com/club_cro",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "",
+        "discordUrl": "http://discord.gg/u3USwUZ8nT",
+        "category": "nft"
+      },
+      {
+        "name": "@VenoFinance",
+        "twitterUrl": "https://twitter.com/VenoFinance",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "Easy and Reliable Liquid Staking on @cronos_chain 🙌",
+        "discordUrl": "bit.ly/m/venofinance",
+        "category": "dex"
+      },
+      {
+        "name": "Cronos Crooks PFP NFT",
+        "twitterUrl": "https://twitter.com/VenoFinance",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "Easy and Reliable Liquid Staking on @cronos_chain 🙌",
+        "discordUrl": "bit.ly/m/venofinance",
+        "category": "dex"
+      },
+      {
+        "name": "4Cs NFT Ecosystem",
+        "twitterUrl": "https://twitter.com/VenoFinance",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "Easy and Reliable Liquid Staking on @cronos_chain 🙌",
+        "discordUrl": "bit.ly/m/venofinance",
+        "category": "dex"
+      },
+      {
+        "name": "NFT Marketplace - Cronos Kitchen",
+        "twitterUrl": "https://twitter.com/VenoFinance",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "Easy and Reliable Liquid Staking on @cronos_chain 🙌",
+        "discordUrl": "bit.ly/m/venofinance",
+        "category": "dex"
+      },
+      {
+        "name": "@VenoFinance",
+        "twitterUrl": "https://twitter.com/VenoFinance",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "Easy and Reliable Liquid Staking on @cronos_chain 🙌",
+        "discordUrl": "bit.ly/m/venofinance",
+        "category": "dex"
+      },
+      {
+        "name": "@VenoFinance",
+        "twitterUrl": "https://twitter.com/VenoFinance",
+        "imageSrc": "img/dummies/featured/cronos.png",
+        "description": "Easy and Reliable Liquid Staking on @cronos_chain 🙌",
+        "discordUrl": "bit.ly/m/venofinance",
+        "category": "dex"
       }
   
 

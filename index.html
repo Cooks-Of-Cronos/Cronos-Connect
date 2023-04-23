@@ -7,7 +7,7 @@
 <link rel="stylesheet" media="all" href="css/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- JS -->
-<script type="module" src="js/nftData.js"></script>
+
 
 <script src="js/jquery-1.7.1.min.js"></script>
 <script src="js/custom.js"></script>
@@ -19,7 +19,7 @@
 <!-- Lof slider -->
 <script src="js/jquery.easing.js"></script>
 <script src="js/lof-slider.js"></script>
-<script src="js/projects.js"></script>
+
 <link rel="stylesheet" href="css/lof-slider.css" media="all" >
 <!-- ENDS slider -->
 <!-- Tweet -->
@@ -171,29 +171,17 @@
   <div class="wrapper cf">
     <!-- featured -->
     <div class="home-featured">
-      <!-- <ul id="filter-buttons">
-        <li><a target="_blank" href="#" data-filter="*" class="selected">SHOW ALL</a></li>
-        <li><a target="_blank" href="#" data-filter=".nft">NFT<S></S></a></li>
-        <li><a target="_blank" href="#" data-filter=".dex">EXCHANGE (DEX)</a></li>
-        <li><a target="_blank" href="#" data-filter=".tokens">TOKENS</a></li>
-        <li><a target="_blank" href="#" data-filter=".utility">ESSENTIALS - UTILITY</a></li>
-        <li><a target="_blank" href="#" data-filter=".social">SOCIAL GROUPS</a></li>
-        <li><a target="_blank" href="#" data-filter=".County">Cro County</a></li>
-        <li><a target="_blank" href="#" data-filter=".verified">VERIFIED ✔</a></li>
-        <li><a target="_blank" href="#" data-filter=".NEW">*NEW</a></li>
-      </ul> -->
+    
 
-      <div id="filter-buttons">
-        <a href="#" data-filter="*" class="selected">All</a>
-        <a href="#" data-filter=".nft">NFTs</a>
-        <a href="#" data-filter=".dex">Exchanges (DEX)</a>
-        <a href="#" data-filter=".tokens">Tokens</a>
-        <a href="#" data-filter=".utility">Essentials - Utility</a>
-        <a href="#" data-filter=".social">Social Groups</a>
-        <a href="#" data-filter=".county">Cro County</a>
-        <a href="#" data-filter=".verified">Verified ✔</a>
-        <a href="#" data-filter=".new">New</a>
-        <a href="#" data-filter=".blank">Blank</a> <!-- Add this line -->
+      <div class="filter-container">
+        <a href="#" class="filter" data-filter="all">All</a>
+        <a href="#" class="filter" data-filter="nft">NFTs</a>
+        <a href="#" class="filter" data-filter="dex">DEX</a>
+        <!-- more filter links here -->
+      </div>
+
+      <div class="project-list">
+        <!-- projects will be added dynamically -->
       </div>
       
       
@@ -299,5 +287,7 @@
   </div>
 </footer>
 <!-- ENDS FOOTER -->
+<script src="js/projects.js"></script>
+<script type="module" src="js/nftData.js"></script>
 </body>
 </html>

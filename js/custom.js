@@ -93,17 +93,17 @@ jQuery(document).ready(function($) {
 	
 	// filter buttons
 		
-	$('#filter-buttons a').click(function(){
+	// $('#filter-buttons a').click(function(){
 	
-		// select current
-		var $optionSet = $(this).parents('#filter-buttons');
-	    $optionSet.find('.selected').removeClass('selected');
-	    $(this).addClass('selected');
+	// 	// select current
+	// 	var $optionSet = $(this).parents('#filter-buttons');
+	//     $optionSet.find('.selected').removeClass('selected');
+	//     $(this).addClass('selected');
     
-		var selector = $(this).attr('data-filter');
-		$container.isotope({ filter: selector });
-		return false;
-	});
+	// 	var selector = $(this).attr('data-filter');
+	// 	$container.isotope({ filter: selector });
+	// 	return false;
+	// });
 	
 	//##########################################
 	// Tool tips
