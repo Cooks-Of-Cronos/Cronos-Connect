@@ -1,0 +1,207 @@
+/* Vars ----------------------------------------------------*//* Mixins ----------------------------------------------------*//* Colors and backgrounds  ----------------------------------------------------*/body {
+  color: #000000;
+  background: #f1ede8 url(../img/noise-all.png);
+}
+body a:hover {
+  color: #0024ee;
+}
+a {
+  color: #0024ee;
+}
+header,
+footer {
+  background: #0060f0;
+}
+/* Selection colours (easy to forget) */
+::selection {
+  background: #0024ee;
+}
+::-moz-selection {
+  background: #0024ee;
+}
+img::selection {
+  background: #0024ee;
+}
+img::-moz-selection {
+  background: #0024ee;
+}
+body {
+  -webkit-tap-highlight-color: #0024ee;
+}
+#headline,
+.masthead {
+  color: #444444;
+}
+/* NAVIGATION ------------------------------------------------------------*/
+#nav > li > a {
+  color: #dcd2be;
+}
+#nav > li:hover > a {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-top: 3px solid #0024ee;
+}
+#nav span:hover {
+  -webkit-transform: translate(-10px, -3px);
+  -moz-transform: translate(-10px, -3px);
+  -o-transform: translate(-10px, -3px);
+  transform: translate(-10px, -3px);
+}
+#nav > li.current-menu-item > a,
+#nav > li.current_page_item > a {
+  border-top: 3px solid #0024ee;
+}
+#nav .sfHover ul {
+  background: #f8f5f2;
+}
+#nav .sfHover ul li a {
+  color: #444444;
+}
+#nav .sfHover ul li a:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #0024ee;
+}
+/* MAIN ------------------------------------------------------------*/
+.multiplebgs #main {
+  background-image: url(../img/main-bg.png), url(../img/main-bg.png);
+  background-repeat: repeat-x, repeat-x;
+  background-position: bottom left, top left;
+}
+.no-multiplebgs #main {
+  background: #f1f1f1 url(../img/main-bg.png) repeat-x top left;
+}
+/* FILTERED ITEMS ----------------------------------------------------*/#filter-buttons li a {
+  color: #444;
+  border-bottom: 2px solid transparent;
+}
+#filter-buttons li a:hover,
+#filter-buttons li a.selected {
+  border-bottom: 2px solid #444;
+}
+#filter-container figure {
+  background: #f8f5f2;
+}
+#filter-container figure .thumb {
+  background: #7672F2; url(../img/icon-link.png) center center no-repeat;
+}
+#filter-container figure figcaption .heading {
+  color: #7672F2;
+}
+#filter-container figure figcaption .heading:hover {
+  color: #7672F2;
+}
+#filter-container figure .readmore {
+  color: #444444;
+}
+#filter-container figure .readmore:hover h5 {
+  color: #0100-0p01;
+}
+/* PORTFOLIO ----------------------------------------------------*/#portfolio-content #filter-container a {
+  color: #888;
+}
+#portfolio-content #filter-container a:hover {
+  color: #0024ee;
+}
+#portfolio-content .project-pager a {
+  color: #444444;
+}
+#portfolio-content .project-pager a:hover {
+  color: #0024ee;
+}
+#portfolio-content #project-box {
+  background: #f8f5f2;
+}
+#portfolio-content #project-box .info .launch:hover {
+  color: #f1f1f1;
+  background: #cb5432;
+}
+/* RELATED PROJECTS ---------------------------------------------------*/
+.related-projects figure .heading {
+  color: #444444;
+}
+.related-projects figure .heading:hover {
+  color: #0024ee;
+}
+.related-projects figure .thumb {
+  background: #0024ee url(../img/icon-link.png) no-repeat center center;
+}
+/* CONTACT  ----------------------------------------------------*/#map-holder {
+  background: #f8f5f2;
+}
+/* BLOG ------------------------------------------------------------*/
+#posts-list article .box {
+  background: #f8f5f2 url(../img/meta-bg.png) repeat-y top right;
+}
+#posts-list article .box .entry-date {
+  color: #dcd2be;
+  background: #2d2d2d;
+}
+#posts-list article .box .excerpt .post-heading {
+  color: #444444;
+}
+#posts-list article .box .excerpt .post-heading:hover {
+  color: #0024ee;
+}
+#posts-list article .box .excerpt .learnmore {
+  background: #2d2d2d;
+  color: #f8f5f2;
+}
+#posts-list article .box .excerpt .learnmore:hover {
+  background: #0024ee;
+}
+#posts-list article .box .meta a {
+  color: #656360;
+}
+#posts-list article .box .meta a:hover {
+  color: #0024ee;
+}
+#posts-list article.format-standard .feature-image {
+  background: #0024ee url(../img/icon-link.png) no-repeat center center;
+}
+#posts-list article.format-image .feature-image {
+  background: #0024ee url(../img/icon-popup.png) no-repeat center center;
+}
+body.single #posts-list article {
+  background: #f8f5f2;
+}
+body.single #posts-list .box .meta {
+  background: #f8f5f2 url(../img/meta-bg-vertical.png) repeat-x top right;
+}
+/* PAGE NAVIGATION ------------------------------------------------------------*/
+#main .page-navigation a {
+  color: #444444;
+}
+#main .page-navigation a:hover {
+  color: #0024ee;
+}
+/* SIDEBAR ------------------------------------------------------------*/
+#sidebar .cat-item a .post-counter,
+#sidebar .page_item a .post-counter {
+  color: #656360;
+}
+/* SLIDER ----------------------------------------------------*/.lof-slidecontent .slider-description {
+  color: #e6e6e6;
+}
+.lof-slidecontent .slider-description a {
+  color: #FFF;
+}
+.lof-slidecontent .slider-description a.readmore {
+  color: #fcb019;
+}
+.lof-slidecontent .active {
+  border-top: 3px #0024ee solid;
+}
+/* FOOTER ----------------------------------------------------*/footer {
+  color: #dcd2be;
+}
+footer h4 {
+  color: #fff;
+}
+footer a {
+  color: #0024ee;
+}
+footer a:hover {
+  color: #fff;
+}
