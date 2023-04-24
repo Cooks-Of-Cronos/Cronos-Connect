@@ -56,6 +56,28 @@ document.addEventListener('DOMContentLoaded', () => {
         description.textContent = project.description;
         card.appendChild(description);
 
+        // Create a button container
+        const buttonContainer = document.createElement('div');
+        buttonContainer.classList.add('button-container');
+
+        // Create a Discord button
+        const discordButton = document.createElement('a');
+        discordButton.textContent = 'Discord';
+        discordButton.href = project.discordUrl;
+        discordButton.classList.add('button');
+        buttonContainer.appendChild(discordButton);
+
+        // Create a Twitter button
+        const twitterButton = document.createElement('a');
+        twitterButton.textContent = 'Twitter';
+        twitterButton.href = project.twitterUrl;
+        twitterButton.classList.add('button');
+        buttonContainer.appendChild(twitterButton);
+
+        // Add the button container to the card
+        card.appendChild(buttonContainer);
+
+
         projectList.appendChild(card);
       });
     })
