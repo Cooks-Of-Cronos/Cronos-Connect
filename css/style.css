@@ -237,7 +237,33 @@ body.home #main {
   padding: 5px 10px;
   margin-bottom: 0px;
 }
+.filter-button {
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+  padding: 6px 12px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.filter-button:hover,
+.filter-button.selected {
+  background-color: #0023e9;
+}
+
+.filter-button-all {
+  margin-left: 0;
+}
+
+.filter-button:last-child {
+  margin-right: 0;
+}
 #filter-container {
+  display: flex;
+  justify-content: center;
   width: 965px;
   margin-bottom: 60px;
   /* Fixes shadow and margin right */
