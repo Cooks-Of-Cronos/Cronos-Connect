@@ -1,0 +1,38 @@
+const sliderData = [
+    {
+      imageSrc: 'img/partners/News.jpg',
+      heading: 'Cro County NFT Ecosystem',
+      subheading: 'An established NFT Project on Cronos expanding to $DC! Who are the Crooks?',
+      description: "The Crooks of Cronos is an NFT Project of 1,111 Cro Crook NFTs living on the Cronos Blockchain Metaverse. It's a dynamic Cop's and Robber's theme which is integrated into our Comic Book where you can read more of our Lore and Learn more about the Crook's Story.",
+      link: 'https://medium.com/@crooksofcronos'
+    },
+    {
+      imageSrc: 'img/dummies/featured/cronos.png',
+      heading: 'What is Cronos?',
+      subheading: '- Thread by Coinmarketcap',
+      description: "Can you teach an old dog new tricks? CMC Academy takes a deep dive into Dogechain, a PoS blockchain that's built on Polygon Edge.",
+      link: 'https://coinmarketcap.com/alexandria/article/what-is-dogechain-the-smart-contract-platform-for-doge'
+    },
+    {
+      imageSrc: 'img/partners/CroCounty.png',
+      heading: '2023 CRO COUNTY UPDATE!',
+      subheading: '',
+      description: "We have been working tirelessly behind the scenes to make significant improvements and updates to our platform, and we can't wait to share them with you. Whether you're a seasoned NFT collector or just getting started, we have something for everyone.",
+      link: 'https://twitter.com/CrooksCronos/status/1618634626939117569?s=20&t=VX721oxm4UwRlW1FjXop1g'
+    },
+    {
+      imageSrc: 'https://pbs.twimg.com/media/FnWaD7UXgAERHs2?format=png&name=900x900',
+      heading: 'TrollCoin Cronos',
+      subheading: '',
+      description: 'The #1 Memecoin on Cronos, in only 2 months. 1% Max Wallet (10M $TROLL)',
+      link: 'https://twitter.com/TrollCoinCro'
+    },
+    {
+      imageSrc: 'img/dummies/featured/cronos.png',
+      heading: '',
+      subheading: '',
+      description: '',
+      link: '#'
+    }
+  ];
+  

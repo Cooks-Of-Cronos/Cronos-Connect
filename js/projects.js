@@ -25,7 +25,6 @@
 
 //   console.log(video.name)
  
-
 document.addEventListener('DOMContentLoaded', () => {
   // Fetch projects from JSON file
   fetch('js/projects.json')
@@ -40,10 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
         card.classList.add('card');
         card.classList.add(project.category); // add the project category as a class for filtering
 
+        const imageContainer = document.createElement('div');
+        imageContainer.classList.add('image-container');
+
         const image = document.createElement('img');
         image.src = project.imageSrc;
         image.alt = project.name;
-        card.appendChild(image);
+        imageContainer.appendChild(image);
+        card.appendChild(imageContainer);
 
         const title = document.createElement('h3');
         title.textContent = project.name;
