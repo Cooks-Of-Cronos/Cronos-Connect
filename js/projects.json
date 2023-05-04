@@ -192,6 +192,62 @@
         "description": "Welcome to the Defiraverse! Defira is a fusion of DeFi and GameFi, creating a unique blockchain metaverse. $FIRA",
         "discordUrl": "shor.by/Defira",
         "category": "market"
+      },
+      {
+        "name": "@CronosClassroom",
+        "twitterUrl": "/img/partners/Students.png",
+        "imageSrc": "https://cronosclassroom.art/assets/images/ClassroomLogo.png",
+        "description": "CRYPTO IN YOUR CLASSROOM",
+        "discordUrl": "",
+        "category": "market"
+      },
+      {
+        "name": "@CrooksRunner P2E Game",
+        "twitterUrl": "",
+        "imageSrc": "/img/partners/game3.png",
+        "description": "4C's Play-To-Earn game Coming Soon",
+        "discordUrl": "",
+        "category": "game"
+      },
+      {
+        "name": "@CAAC",
+        "twitterUrl": "",
+        "imageSrc": "/img/partners/caac.png",
+        "description": "Cronos DAO",
+        "discordUrl": "",
+        "category": "DAO"
+      },
+      {
+        "name": "@CrooksGold ($cGOLD)",
+        "twitterUrl": "",
+        "imageSrc": "/img/partners/cGOld.png",
+        "description": "Rewards Token for 4C's Ecosystem",
+        "discordUrl": "",
+        "category": "token"
+      },
+      {
+        "name": "TGSOC",
+        "twitterUrl": "",
+        "imageSrc": "/img/partners/TGSOC.png",
+        "description": "",
+        "discordUrl": "",
+        "category": "org"
+      },
+      {
+        "name": "CroCare",
+        "twitterUrl": "",
+        "imageSrc": "/img/partners/CroCare.png",
+        "description": "Cronos ecosystem organization founded by 4C's who's purpose is to help struggling projects and support ecosystem participants.",
+        "discordUrl": "",
+        "category": "org"
+      },
+      {
+        "name": "Cronos Consortium",
+        "twitterUrl": "",
+        "imageSrc": "/img/partners/croconsortium.png",
+        "description": "Cronos ecosystem organization founded by 4C's who's purpose is to help Cronos grow as an ecosystem and enhance the community experience",
+        "discordUrl": "",
+        "category": "org"
       }
   
 
