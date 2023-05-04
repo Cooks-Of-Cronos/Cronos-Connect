@@ -33,8 +33,25 @@ document.addEventListener('DOMContentLoaded', () => {
       // Get the project list container
       const projectList = document.querySelector('.project-list');
 
+      // Create "Show more" button
+      const showMoreButton = document.createElement('button');
+      showMoreButton.textContent = 'Show more';
+      showMoreButton.classList.add('show-more-button');
+      projectList.appendChild(showMoreButton);
+
+      // Set the initial number of visible projects
+      let numVisibleProjects = 10;
+      let projectsToShow = data.slice(0,  data.length - numVisibleProjects);
+      console.log(data);
+
       // Loop through each project and create a card element with its properties
-      data.forEach(project => {
+      projectsToShow.forEach(project => {
+        const card = createCard(project);
+        projectList.appendChild(card);
+      });
+
+      // Function to create a card element for a project
+      function createCard(project) {
         const card = document.createElement('div');
         card.classList.add('card');
         card.classList.add(project.category); // add the project category as a class for filtering
@@ -64,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const discordButton = document.createElement('a');
         discordButton.textContent = 'Discord';
         discordButton.href = project.discordUrl;
+        discordButton.target = '_blank'; // add target property
         discordButton.classList.add('button');
         buttonContainer.appendChild(discordButton);
 
@@ -71,15 +89,53 @@ document.addEventListener('DOMContentLoaded', () => {
         const twitterButton = document.createElement('a');
         twitterButton.textContent = 'Twitter';
         twitterButton.href = project.twitterUrl;
+        twitterButton.target = '_blank'; // add target property
         twitterButton.classList.add('button');
         buttonContainer.appendChild(twitterButton);
 
         // Add the button container to the card
         card.appendChild(buttonContainer);
 
+        return card;
+      }
 
-        projectList.appendChild(card);
-      });
+      // Function to update the project feed with visible projects
+      const updateProjectFeed = () => {
+        // Clear the project list container
+        projectList.innerHTML = '';
+        let projectsToShow = data.slice(numVisibleProjects[0], data.length);
+
+        // Loop through each visible project and create a card element
+        projectsToShow.forEach(project => {
+          const card = createCard(project);
+          projectList.appendChild(card);
+        });
+      }
+
+      console.log(projectsToShow);
+
+      // Add click event listener to show more button
+showMoreButton.addEventListener('click', () => {
+  // Increase the number of visible projects
+  numVisibleProjects += 10;
+
+  // Get the projects to show
+  if (numVisibleProjects <= data.length) {
+    projectsToShow = data.slice(numVisibleProjects[0], data.length);
+    console.log("displaying sliced data")
+  } else {
+    projectsToShow = data;
+    console.log("displaying all data")
+  }
+
+  console.log(projectsToShow);
+
+  // Update the project feed with the visible projects
+  updateProjectFeed();
+});
+        
+
+      
     })
     .catch(error => console.error(error));
 
@@ -107,7 +163,12 @@ document.addEventListener('DOMContentLoaded', () => {
       link.classList.add('selected');
     });
   });
+
+
+  
 });
+
+
 
 
 
